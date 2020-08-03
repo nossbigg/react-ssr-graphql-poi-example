@@ -1,30 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# react-ssr-graphql-poi-example
 
-## Getting Started
+This repository is a barebones example of how to retrieve and display Point-of-Interest (POI)/non-POI information using Next.js Server-Side Rendering and GraphQL, with an ideal developer experience
 
-First, run the development server:
+## Running Example Locally
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+**Commands to run locally**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- `yarn dev`: Starts both Next.js instance and GraphQL server instance
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+**Instances started**
 
-## Learn More
+- `http://localhost:3000/`: Next.js SSR Instance
+- `http://localhost:3000/api/graphql`: GraphQL Instance
 
-To learn more about Next.js, take a look at the following resources:
+## References
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Basic Features: Data Fetching | Next.js](https://nextjs.org/docs/basic-features/data-fetching)
+- [API Reference: apollo-server - Apollo Server - Apollo GraphQL Docs](https://www.apollographql.com/docs/apollo-server/api/apollo-server/)
+- [Queries - Client (React) - Apollo GraphQL Docs](https://www.apollographql.com/docs/react/data/queries/)
+- [Customizing the behavior of cached fields - Client (React) - Apollo GraphQL Docs](https://www.apollographql.com/docs/react/caching/cache-field-behavior/)
